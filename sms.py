@@ -9,6 +9,7 @@ from colorama import Fore,Style
 phone = "" #Doldurmayın!! hata vermemesi için ekledim.
 ad = ""
 soyad = ""
+#kodu incelemek isteyenler en alt satırlardan başlayabilirler.
 while True:
     
     
