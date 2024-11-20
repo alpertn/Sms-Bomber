@@ -6,7 +6,7 @@ import requests
 from os import system
 from time import sleep
 from colorama import Fore,Style
-phone = ""
+phone = "" #Doldurmayın!! hata vermemesi için ekledim.
 ad = ""
 soyad = ""
 #Yazılımcıya Not : Kodun Alt Satırlarına Bak.
