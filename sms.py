@@ -1348,7 +1348,7 @@ while True:
             continue
         if menu == "2":
             system("cls||clear")
-            print("Python'un Requests modülünü kullanarak sitelere istek gönderir.\nBu istekler sonucu sunucu telefonunuza sms gönderir.\nProje sadece Github'da proje olarak yayınlanmak için yapılmıştır. Eğitim amaçlıdır.\n\n\n")
+            print("Python'un Requests modülünü kullanarak sitelere istek gönderir.\nBu istekler sonucu sunucu telefonunuza sms gönderir.\nProje sadece Github'da proje olarak yayınlanmak için yapılmıştır. Eğitim amaçlıdır.\nhttps://github.com/mehmetalperozbay/Sms-Bomber\n\n")
             okudum = input("Menüye Dönmek İçin 'Enter' tuşuna Basınız...")
             if okudum == "":
                 continue
