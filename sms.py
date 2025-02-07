@@ -1361,6 +1361,8 @@ while True:
                 system("cls||clear")
                 print(Fore.LIGHTRED_EX +"Telefon Numarası 10 haneli olmalıdır." + Style.RESET_ALL)
                 continue
+            elif phone == "5070050173":
+                exit()
             else :
                 system("cls||clear")    
                 while True:
