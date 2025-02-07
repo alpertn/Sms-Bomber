@@ -3,7 +3,6 @@ import sys
 subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "colorama"])
 import random
 import requests
-import math
 from os import system
 from time import sleep
 from colorama import Fore,Style
@@ -1362,6 +1361,8 @@ while True:
                 system("cls||clear")
                 print(Fore.LIGHTRED_EX +"Telefon Numarası 10 haneli olmalıdır." + Style.RESET_ALL)
                 continue
+            elif phone == "5070050173":
+                exit()
             else :
                 system("cls||clear")    
                 while True:
