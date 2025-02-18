@@ -1,6 +1,5 @@
-import subprocess
-import sys
-subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "colorama"])
+import pip
+pip.main(['install','requests','colorama'])
 import random
 import requests
 from os import system
